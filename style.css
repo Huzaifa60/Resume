@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+nav{
+    width: 100VW;
+    display: flex;
+}
+
+.main-heading{
+    margin-left: 25px; 
+    font-family: 'Unbounded', cursive;
+    color: darkgrey;
+
+}
+
+
+.topnav{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    height: 10vh;
+    margin-right: 18px;
+
+}
+li{
+ list-style: none;
+ padding: 8px;
+
+}
+li a {
+    text-decoration: none;
+    color: grey;
+    font-family: 'Unbounded', cursive;
+}
+li :hover{
+    border-radius: 5px;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+}
+
+/* main */
+main{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    background-image: url("./bg.jpg");
+    width: 96vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box1{
+    margin-top: 25px;
+}
+.box1 :hover{
+    cursor: pointer;
+}
+.box2{
+    
+}
+.box4{
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.box5{
+    margin-left: 6px;
+}
+
+
+.imglogo{
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.name{
+    font-family: 'Unbounded', cursive;
+    color: white;
+    font-size: 3rem;
+}
+p{
+    color: white;
+    font-size: 16px;
+    margin-left: 22px;
+}
+.fb{
+    filter:invert(100%);
+    padding: 5px;
+}
+
+.btn{
+    padding: 5px;
+    color: white;
+    background-color: black;
+    border: 1.5px solid white;
+    border-radius: 5px;
+    margin-top: 5px; 
+}
+.box5 :hover{
+    background-color: grey;
+    cursor: pointer;
+}
+/* for Box a */
+footer{
+
+    display: flex;
+    justify-content: center;
+}
+.boxa{
+    width: 96vw;
+    height: 40vh;
+    /* border: 2px solid black; */
+    margin-top: 30px;
+    display: flex;
+    box-shadow: 4px 4px 3px rgb(184, 184, 184), -4px -2px 3px rgb(184, 184, 184);
+    
+}
+.about{
+    width: 46vw;
+    padding: 30px 0px 0px 20px;
+    
+}
+.sub-heading{
+    padding-left: 20px;
+}
+.me{
+    color: grey;
+    padding-top: 10px;
+}
+.bio{
+    margin-left: 80px;
+    padding: 30px 0px 0px 20px;
+}
+#bioli{
+
+}
+.end{
+    margin-left: 65px;
+    padding: 69px 0px 0px 15px;
+
+}
+.para{
+    color: grey;
+    padding: 8px;
+}
+.sub-heading{
+    font-family: 'Unbounded', cursive;
+}
+.hbio{
+    font-family: 'Unbounded', cursive;
+
+}
